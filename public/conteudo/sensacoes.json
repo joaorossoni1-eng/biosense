@@ -1,0 +1,83 @@
+{
+  "_sobre": "Conteúdo editável pela equipe de Processos Biológicos. Textos do modo Descobrir ainda em revisão pela curadoria científica.",
+  "sensacoes": [
+    {
+      "id": "dor",
+      "nome": "Dor",
+      "frase": "Eu sinto dor",
+      "icone": "dor",
+      "audio": null,
+      "descobrir": {
+        "titulo": "Por que a gente sente dor?",
+        "texto": "A dor é um aviso. Os nervos levam uma mensagem até o cérebro: aqui tem algo que precisa de cuidado. Quando você conta onde dói, um adulto pode ajudar.",
+        "regioes": ["regiao_cabeca", "regiao_barriga", "regiao_pernas"],
+        "revisado": false
+      }
+    },
+    {
+      "id": "fome",
+      "nome": "Fome",
+      "frase": "Eu sinto fome",
+      "icone": "fome",
+      "audio": null,
+      "descobrir": {
+        "titulo": "Por que a gente sente fome?",
+        "texto": "O corpo usa a comida como energia. Quando a energia está acabando e a barriga está vazia, o cérebro avisa: é hora de comer.",
+        "regioes": ["regiao_barriga"],
+        "revisado": false
+      }
+    },
+    {
+      "id": "sede",
+      "nome": "Sede",
+      "frase": "Eu sinto sede",
+      "icone": "sede",
+      "audio": null,
+      "descobrir": {
+        "titulo": "Por que a gente sente sede?",
+        "texto": "O corpo precisa de água para funcionar. Quando falta água, a boca e a garganta ficam secas. É o corpo pedindo para beber.",
+        "regioes": ["regiao_garganta"],
+        "revisado": false
+      }
+    },
+    {
+      "id": "enjoo",
+      "nome": "Enjoo",
+      "frase": "Eu sinto enjoo",
+      "icone": "enjoo",
+      "audio": null,
+      "descobrir": {
+        "titulo": "O que é enjoo?",
+        "texto": "Enjoo é quando a barriga fica estranha, como se quisesse devolver a comida. Pode acontecer no carro, quando a gente está doente ou muito cansado.",
+        "regioes": ["regiao_barriga", "regiao_cabeca"],
+        "revisado": false
+      }
+    },
+    {
+      "id": "frio",
+      "nome": "Frio",
+      "frase": "Eu sinto frio",
+      "icone": "frio",
+      "audio": null,
+      "descobrir": {
+        "titulo": "O que o corpo faz com frio?",
+        "texto": "Com frio, o corpo treme. Tremer faz os músculos produzirem calor. A pele também fica arrepiada.",
+        "regioes": ["regiao_bracos", "regiao_maos", "regiao_pes"],
+        "revisado": false
+      }
+    },
+    {
+      "id": "calor",
+      "nome": "Calor",
+      "frase": "Eu sinto calor",
+      "icone": "calor",
+      "audio": null,
+      "descobrir": {
+        "titulo": "O que o corpo faz com calor?",
+        "texto": "Com calor, o corpo sua. O suor molha a pele e, quando seca, ajuda o corpo a esfriar. Beber água ajuda.",
+        "regioes": ["regiao_cabeca", "regiao_peito"],
+        "revisado": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" width="140" height="140"><title>BioSense</title><g transform="translate(0,0) scale(1.0)">
+  <circle cx="60" cy="26" r="17" fill="#2E4A8C"/>
+  <path d="M60 48c-20 0-34 11-37 26l-6 26a7 7 0 0 0 13.6 3.2L35 85v38a8 8 0 0 0 16 0V102h18v21a8 8 0 0 0 16 0V85l4.4 18.2A7 7 0 0 0 103 100l-6-26C94 59 80 48 60 48z" fill="#2E4A8C"/>
+  <circle cx="60" cy="78" r="6" fill="#F7F3EC"/>
+  <circle cx="60" cy="78" r="3.2" fill="#D9694F"/>
+  <path d="M108 60a14 14 0 0 1 0 18" fill="none" stroke="#8CC7A6" stroke-width="5" stroke-linecap="round"/>
+  <path d="M116 53a24 24 0 0 1 0 32" fill="none" stroke="#F0BE5E" stroke-width="5" stroke-linecap="round"/>
+  <path d="M124 46a34 34 0 0 1 0 46" fill="none" stroke="#D9694F" stroke-width="5" stroke-linecap="round"/>
+</g></svg>

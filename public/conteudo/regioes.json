@@ -1,0 +1,14 @@
+{
+  "_sobre": "O campo id precisa ser igual ao nome da malha no modelo 3D (Blender). 'corpo_todo' não é uma malha: acende o boneco inteiro.",
+  "regioes": [
+    { "id": "regiao_cabeca",   "nome": "Cabeça",    "frase": "na cabeça",     "audio": null },
+    { "id": "regiao_garganta", "nome": "Garganta",  "frase": "na garganta",   "audio": null },
+    { "id": "regiao_peito",    "nome": "Peito",     "frase": "no peito",      "audio": null },
+    { "id": "regiao_barriga",  "nome": "Barriga",   "frase": "na barriga",    "audio": null },
+    { "id": "regiao_bracos",   "nome": "Braços",    "frase": "nos braços",    "audio": null },
+    { "id": "regiao_maos",     "nome": "Mãos",      "frase": "nas mãos",      "audio": null },
+    { "id": "regiao_pernas",   "nome": "Pernas",    "frase": "nas pernas",    "audio": null },
+    { "id": "regiao_pes",      "nome": "Pés",       "frase": "nos pés",       "audio": null },
+    { "id": "corpo_todo",      "nome": "Corpo todo","frase": "no corpo todo", "audio": null }
+  ]
+}

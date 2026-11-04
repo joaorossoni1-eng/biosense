@@ -1,0 +1,7 @@
+{
+  "niveis": [
+    { "nivel": 1, "nome": "Pouco", "frase": "Pouco.", "cor": "#8CC7A6", "audio": null },
+    { "nivel": 2, "nome": "Médio", "frase": "Médio.", "cor": "#F0BE5E", "audio": null },
+    { "nivel": 3, "nome": "Muito", "frase": "Muito.", "cor": "#D9694F", "audio": null }
+  ]
+}
