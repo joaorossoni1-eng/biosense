@@ -87,6 +87,21 @@ O protótipo **não usa dados mockados de usuários**: não há banco de dados n
 
 ---
 
+## Pacote de entrega (BioDesign Inclusivo)
+
+| # | Item exigido | Documento | Situação |
+|---|---|---|---|
+| 1 | Produto publicado + versão offline | [App no ar](https://joaorossoni1-eng.github.io/biosense/) (PWA instalável) | ✅ V1 |
+| 2 | Guia pedagógico | [`docs/entrega/guia-pedagogico.md`](docs/entrega/guia-pedagogico.md) | 📝 Rascunho, ajustar após a escuta da instituição |
+| 3 | Manual de uso | [`docs/entrega/manual-de-uso.md`](docs/entrega/manual-de-uso.md) | ✅ |
+| 4 | Ficha técnica (créditos e licenças) | [`docs/entrega/ficha-tecnica.md`](docs/entrega/ficha-tecnica.md) | 📝 Faltam RAs e licença do projeto |
+| 5 | Registro da evolução V1 → V2 | [`docs/entrega/registro-evolucao.md`](docs/entrega/registro-evolucao.md) | 📝 Decisões da V1 registradas; V2 após os testes |
+
+**Testes e validação:** [roteiro dos testes cruzados](docs/testes/roteiro-testes-cruzados.md) · [relatório de testes](docs/testes/relatorio-de-testes.md)
+**Apresentação final:** [roteiro do pitch de 5 min e do vídeo final](docs/apresentacao/pitch-5min.md)
+
+---
+
 ## Como executar
 
 **Pré-requisito:** [Node.js](https://nodejs.org) 18 ou mais recente.
@@ -347,6 +362,9 @@ biosense/
 │   └── sw.js                    ← modo offline
 ├── assets/identidade/           ← logo, símbolo e paleta
 ├── docs/
+│   ├── entrega/                 ← guia pedagógico, manual, ficha técnica, registro da evolução
+│   ├── testes/                  ← roteiro e relatório dos testes cruzados
+│   ├── apresentacao/            ← roteiro do pitch e do vídeo final
 │   ├── prints/                  ← capturas do protótipo
 │   ├── identidade-visual.md     ← guia da marca
 │   ├── conteudo-mvp.md          ← conteúdo para curadoria científica
@@ -366,7 +384,9 @@ biosense/
 - [ ] Narração gravada pela equipe (`public/audio/`)
 - [ ] Revisão científica dos textos do modo Descobrir
 - [ ] Testes cruzados com outros grupos (16/11 a 19/11) e relatório de melhorias
-- [ ] Feedback da instituição parceira e guia pedagógico
+- [x] Guia pedagógico, manual de uso, ficha técnica e registro da evolução (rascunhos)
+- [x] Roteiro de testes cruzados e roteiro do pitch
+- [ ] Feedback da instituição parceira
 
 ---
 
