@@ -312,11 +312,11 @@ Ambas são gratuitas (SIL Open Font License) e funcionam offline. Regras: frases
 
 | Integrante | RA | Papel principal | GitHub |
 |---|---|---|---|
-| Jessica _(sobrenome)_ | _preencher_ | Curadoria científica e bases de dados | _@usuario_ |
-| Lara _(sobrenome)_ | _preencher_ | Conteúdo, linguagem e glossário | _@usuario_ |
-| Fernanda _(sobrenome)_ | _preencher_ | Acessibilidade e testes | _@usuario_ |
-| Yan _(sobrenome)_ | _preencher_ | Modelagem 3D e animação | _@usuario_ |
-| João Vitor _(sobrenome)_ | _preencher_ | Desenvolvimento, integração e identidade visual | [@joaorossoni1-eng](https://github.com/joaorossoni1-eng) |
+| Jessica Caporal | _preencher_ | Curadoria científica e bases de dados | 
+| Lara Falcão | _preencher_ | Conteúdo, linguagem e glossário | 
+| Fernanda Goveia | _preencher_ | Acessibilidade e testes | 
+| Yan Dias | 2025112818 | Modelagem 3D e animação | 
+| João Rossoni | 2025112836 | Desenvolvimento, integração e identidade visual | [@joaorossoni1-eng](https://github.com/joaorossoni1-eng) |
 
 > Cada integrante completa a própria linha (nome completo, RA e usuário do GitHub) com a própria conta. Essa edição já conta como a sua contribuição registrada no histórico.
 
