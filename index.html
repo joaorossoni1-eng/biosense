@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>BioSense: O que eu sinto?</title>
+  <meta name="description" content="Boneco 3D que ajuda crianças a contar o que sentem, onde sentem e quanto sentem. Projeto BioDesign Inclusivo — FMU Tech Inovação 2026.2.">
+  <meta name="theme-color" content="#2E4A8C">
+  <link rel="icon" type="image/svg+xml" href="./icones/biosense-simbolo.svg">
+  <link rel="apple-touch-icon" href="./icones/icone-192.png">
+  <link rel="manifest" href="./manifest.webmanifest">
+</head>
+<body>
+  <a class="pular" href="#painel">Pular para as opções</a>
+
+  <header class="topo">
+    <div class="marca">
+      <img src="./icones/biosense-simbolo.svg" alt="" width="40" height="40">
+      <span class="marca-nome"><b>Bio</b><i>Sense</i></span>
+    </div>
+
+    <nav class="modos" aria-label="Modo">
+      <button class="modo" data-modo="contar" aria-pressed="true">Contar</button>
+      <button class="modo" data-modo="descobrir" aria-pressed="false">Descobrir</button>
+    </nav>
+
+    <div class="ajustes">
+      <button class="icone-btn" id="btn-som" aria-pressed="true" aria-label="Som ligado"></button>
+      <button class="icone-btn" id="btn-movimento" aria-pressed="true" aria-label="Movimento ligado"></button>
+      <button class="icone-btn" id="btn-info" aria-label="Informações para adultos"></button>
+    </div>
+  </header>
+
+  <main class="app">
+    <section class="palco" aria-label="Boneco 3D">
+      <div id="cena" class="cena"></div>
+      <div class="escolha-boneco" role="group" aria-label="Escolher boneco">
+        <button class="tipo" data-tipo="menino" aria-pressed="true">Menino</button>
+        <button class="tipo" data-tipo="menina" aria-pressed="false">Menina</button>
+      </div>
+      <p class="dica" id="dica" aria-hidden="true">Toque no boneco</p>
+      <div class="girar">
+        <button class="icone-btn" id="girar-esq" aria-label="Girar o boneco para a esquerda"></button>
+        <button class="icone-btn" id="girar-dir" aria-label="Girar o boneco para a direita"></button>
+      </div>
+    </section>
+
+    <section class="painel" id="painel" tabindex="-1">
+      <ol class="progresso" id="progresso" aria-label="Etapas"></ol>
+      <div id="conteudo" class="conteudo"></div>
+    </section>
+  </main>
+
+  <div class="sr-only" aria-live="polite" id="aviso"></div>
+
+  <dialog id="dlg-info" aria-labelledby="dlg-titulo">
+    <h2 id="dlg-titulo">Para adultos</h2>
+    <p><strong>BioSense</strong> ajuda a criança a contar o que sente em três passos: <em>onde</em>, <em>o quê</em> e <em>quanto</em>. No fim, o boneco mostra e fala a frase completa.</p>
+    <ul>
+      <li>É um <strong>apoio à comunicação</strong>, não faz diagnóstico. Em caso de dor forte ou persistente, procure um profissional de saúde.</li>
+      <li><strong>Nada é salvo ou enviado.</strong> Não há login, anúncios ou chat.</li>
+      <li>Use os botões no topo para <strong>desligar o som</strong> ou <strong>parar o movimento</strong>.</li>
+      <li>Também funciona com teclado: <kbd>Tab</kbd> para andar e <kbd>Enter</kbd> para escolher.</li>
+    </ul>
+    <p class="pequeno">Projeto BioDesign Inclusivo · FMU Tech Inovação 2026.2 · Os textos do modo Descobrir estão em revisão científica.</p>
+    <form method="dialog"><button class="botao primario">Entendi</button></form>
+  </dialog>
+
+  <script type="module" src="./src/js/main.js"></script>
+</body>
+</html>
